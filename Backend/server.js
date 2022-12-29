@@ -1,4 +1,4 @@
-require("dotenv").config("../.env");
+require("dotenv").config();
 const express = require("express");
 var cors = require("cors");
 const connectToDB = require("./config/db");
